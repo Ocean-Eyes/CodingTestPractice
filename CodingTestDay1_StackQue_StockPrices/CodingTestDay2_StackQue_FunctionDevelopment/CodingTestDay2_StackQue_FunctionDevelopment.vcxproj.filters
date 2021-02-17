@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StockPrices.cpp">
+    <ClCompile Include="FunctionDevelopment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

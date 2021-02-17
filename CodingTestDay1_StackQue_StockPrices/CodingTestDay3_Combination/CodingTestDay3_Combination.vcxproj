@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{665acc6f-9ea3-48a4-98be-59a43454f88b}</ProjectGuid>
-    <RootNamespace>CodingTestDay1StackQueStockPrices</RootNamespace>
+    <ProjectGuid>{d17a3bdc-214f-465a-b0aa-57da2f0e0d8a}</ProjectGuid>
+    <RootNamespace>CodingTestDay3Combination</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="StockPrices.cpp" />
+    <ClCompile Include="Combination.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
