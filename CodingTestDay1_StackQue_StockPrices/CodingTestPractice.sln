@@ -9,7 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay2_StackQue_Fun
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay3_Combination", "CodingTestDay3_Combination\CodingTestDay3_Combination.vcxproj", "{D17A3BDC-214F-465A-B0AA-57DA2F0E0D8A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay3_DollDrawingMachine", "CodingTestDay3_DollDrawingMachine\CodingTestDay3_DollDrawingMachine.vcxproj", "{41F54008-B276-47F2-A73F-96E6B0B88609}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay4_Marathoner", "CodingTestDay3_DollDrawingMachine\CodingTestDay3_DollDrawingMachine.vcxproj", "{41F54008-B276-47F2-A73F-96E6B0B88609}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay5_TrainingWear", "CodingTestDay5_TrainingWear\CodingTestDay5_TrainingWear.vcxproj", "{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{41F54008-B276-47F2-A73F-96E6B0B88609}.Release|x64.Build.0 = Release|x64
 		{41F54008-B276-47F2-A73F-96E6B0B88609}.Release|x86.ActiveCfg = Release|Win32
 		{41F54008-B276-47F2-A73F-96E6B0B88609}.Release|x86.Build.0 = Release|Win32
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Debug|x64.ActiveCfg = Debug|x64
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Debug|x64.Build.0 = Debug|x64
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Debug|x86.Build.0 = Debug|Win32
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Release|x64.ActiveCfg = Release|x64
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Release|x64.Build.0 = Release|x64
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Release|x86.ActiveCfg = Release|Win32
+		{0B08D7D8-3A57-4E98-8A90-6D557A190B9E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
