@@ -115,7 +115,7 @@ vector<int> solution(vector<int> answers) {
 			}
 		}
 	}
-	// There's one maximum scores.
+	// There's one maximum scores...
 	else
 	{
 		answer.push_back(max_index + 1);
