@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d0de9d8a-4776-449a-8f0d-86beeefe25dc}</ProjectGuid>
-    <RootNamespace>CodingTestDay7MockExam</RootNamespace>
+    <ProjectGuid>{3bc72770-e993-49fa-9faf-6cf60360bd18}</ProjectGuid>
+    <RootNamespace>CodingTestDay9Caesar</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MockExam.cpp" />
+    <ClCompile Include="Caesar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

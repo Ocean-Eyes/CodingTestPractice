@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay6_HateSameNum"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay7_MockExam", "CodingTestDay7_MockExam\CodingTestDay7_MockExam.vcxproj", "{D0DE9D8A-4776-449A-8F0D-86BEEEFE25DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay9_Caesar", "CodingTestDay9_Caesar\CodingTestDay9_Caesar.vcxproj", "{3BC72770-E993-49FA-9FAF-6CF60360BD18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{D0DE9D8A-4776-449A-8F0D-86BEEEFE25DC}.Release|x64.Build.0 = Release|x64
 		{D0DE9D8A-4776-449A-8F0D-86BEEEFE25DC}.Release|x86.ActiveCfg = Release|Win32
 		{D0DE9D8A-4776-449A-8F0D-86BEEEFE25DC}.Release|x86.Build.0 = Release|Win32
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Debug|x64.ActiveCfg = Debug|x64
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Debug|x64.Build.0 = Debug|x64
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Debug|x86.Build.0 = Debug|Win32
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Release|x64.ActiveCfg = Release|x64
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Release|x64.Build.0 = Release|x64
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Release|x86.ActiveCfg = Release|Win32
+		{3BC72770-E993-49FA-9FAF-6CF60360BD18}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
