@@ -63,10 +63,10 @@ int main()
 vector<int> solution(vector<int> answers) {
 	vector<int> answer;
 	vector<int> student1 = { 1,2,3,4,5 };
-	vector<int> student2 = { 2,1,2,3,2,4,2,5,2 };
+	vector<int> student2 = { 2,1,2,3,2,4,2,5 };
 	vector<int> student3 = { 3,3,1,1,2,2,4,4,5,5 };
 	vector<int> count = { 0, 0, 0 };
-	int max_index, min_index;
+	int max_index, max_value;
 
 	for (unsigned int i = 0; i < answers.size(); i++)
 	{
@@ -75,7 +75,7 @@ vector<int> solution(vector<int> answers) {
 			count[0]++;
 		}
 
-		if (answers[i] == student2[i % 9])
+		if (answers[i] == student2[i % 8])
 		{
 			count[1]++;
 		}
@@ -87,9 +87,10 @@ vector<int> solution(vector<int> answers) {
 	}
 	
 	max_index = max_element(count.begin(), count.end()) - count.begin();
+	max_value = *max_element(count.begin(), count.end());
 
-	// There's no maximum scores or There are 2 or 3 same maximum scores.
-	if(max_index != *count.end())
+	// There are 2 or 3 same scores.
+	if((count[0] == count[1]) || (count[1] == count[2]) || (count[2] == count[0]))
 	{
 		// All students get same scores.
 		if ((count[0] == count[1]) && (count[1] == count[2]) && (count[2] == count[0]))
@@ -101,21 +102,14 @@ vector<int> solution(vector<int> answers) {
 		{
 			for (unsigned int j = 0; j < count.size(); j++)
 			{
-				for (unsigned int k = 0; k < count.size() - 1; k++)
+				if (max_value == count[j])
 				{
-					if (count[j] > count[k + 1])
-					{
-						answer.push_back(j+1);
-					}
-					else
-					{
-						answer.push_back(k+2);
-					}
+					answer.push_back(j + 1);
 				}
 			}
 		}
 	}
-	// There's one maximum scores...
+	// There's no same score.
 	else
 	{
 		answer.push_back(max_index + 1);
