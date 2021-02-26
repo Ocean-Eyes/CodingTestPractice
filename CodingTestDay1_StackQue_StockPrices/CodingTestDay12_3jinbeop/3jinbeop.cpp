@@ -72,7 +72,7 @@ int solution(int n)
 
     sizeof_samjinsu = samjinsu.size();
 
-    // make vector that includes reverse-3jinsu
+    // make a vector that includes reverse-3jinsu
     for (int k = 0; k < sizeof_samjinsu; k++)
     {
         rev_samjinsu.push_back(samjinsu.back());
