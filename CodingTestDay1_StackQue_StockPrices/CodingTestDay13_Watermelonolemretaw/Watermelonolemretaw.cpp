@@ -29,10 +29,12 @@ string solution(int n) {
     
     for (int i = 1; i < n + 1; i++)
     {
+        // if an index is odd number
         if (i % 2 == 1)
         {
             answer = answer + "¼ö";
         }
+        // if an index is even number
         else if (i % 2 == 0)
         {
             answer = answer + "¹Ú";

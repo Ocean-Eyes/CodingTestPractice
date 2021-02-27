@@ -39,7 +39,7 @@ int solution(int n)
     // To seek a maximum squares to divide a given n
     while (1)
     {
-        temp = pow(static_cast<int>(3), static_cast<int>(i));
+        temp = pow(static_cast<double>(3), static_cast<double>(i)); // pow(a, b) = a^b -> a,b == double type
         
         if (n < temp)
         {
