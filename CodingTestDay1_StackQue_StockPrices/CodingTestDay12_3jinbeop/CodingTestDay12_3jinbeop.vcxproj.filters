@@ -18,5 +18,8 @@
     <ClCompile Include="3jinbeop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3jinbeop_modified.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
