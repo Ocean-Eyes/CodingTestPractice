@@ -32,7 +32,7 @@ vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     vector<int> answer;
     vector<vector<int>> temp_answer(commands.size()); // Create a vector that is as large as the size of the commands vector.
 
-    // When cut and sorted from the i-th through j-th of the array, find the k-th number
+    // When cut and sorted from the i-th through j-th of the array, find the k-th number.
     //
     // ex)
     // i j k
@@ -40,7 +40,7 @@ vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     // 2 5 3
     // 4 4 1
     // 1 7 3
-    //=> find the 3rd, 1st, 3rd element after cutting 2nd-5th, 4th-4th, 1st-7th respectively 
+    //=> find the 3rd, 1st, 3rd element after cutting 2nd-5th, 4th-4th, 1st-7th respectively.
     for (int i = 0; i < commands.size(); i++)
     {
         temp_answer[i].resize(commands[i][1] - commands[i][0] + 1);                                         // Sets the size of the vector by the number of i-th to j-th numbers.
