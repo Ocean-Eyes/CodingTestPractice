@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay12_3jinbeop", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay14_DotProduct", "CodingTestDay14_DotProduct\CodingTestDay14_DotProduct.vcxproj", "{FDC7001F-602B-487B-9C9E-75AA2B0DD19F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay15_NumberK", "CodingTestDay15_NumberK\CodingTestDay15_NumberK.vcxproj", "{1321031F-16B8-454B-A35B-2B562ECC83F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{FDC7001F-602B-487B-9C9E-75AA2B0DD19F}.Release|x64.Build.0 = Release|x64
 		{FDC7001F-602B-487B-9C9E-75AA2B0DD19F}.Release|x86.ActiveCfg = Release|Win32
 		{FDC7001F-602B-487B-9C9E-75AA2B0DD19F}.Release|x86.Build.0 = Release|Win32
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Debug|x64.ActiveCfg = Debug|x64
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Debug|x64.Build.0 = Debug|x64
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Debug|x86.Build.0 = Debug|Win32
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Release|x64.ActiveCfg = Release|x64
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Release|x64.Build.0 = Release|x64
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Release|x86.ActiveCfg = Release|Win32
+		{1321031F-16B8-454B-A35B-2B562ECC83F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
