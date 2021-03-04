@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay15_NumberK", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay16_WeirdNumber", "CodingTestDay16_WeirdNumber\CodingTestDay16_WeirdNumber.vcxproj", "{DEC19F15-154B-40EC-B7C9-7E9FA204B354}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay17_FindPrimeNumber", "CodingTestDay17_FindPrimeNumber\CodingTestDay17_FindPrimeNumber.vcxproj", "{6E78438C-9590-4C36-B62F-FF52072C4DE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{DEC19F15-154B-40EC-B7C9-7E9FA204B354}.Release|x64.Build.0 = Release|x64
 		{DEC19F15-154B-40EC-B7C9-7E9FA204B354}.Release|x86.ActiveCfg = Release|Win32
 		{DEC19F15-154B-40EC-B7C9-7E9FA204B354}.Release|x86.Build.0 = Release|Win32
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Debug|x64.ActiveCfg = Debug|x64
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Debug|x64.Build.0 = Debug|x64
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Debug|x86.Build.0 = Debug|Win32
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x64.ActiveCfg = Release|x64
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x64.Build.0 = Release|x64
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x86.ActiveCfg = Release|Win32
+		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
