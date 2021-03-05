@@ -37,26 +37,36 @@ int solution(int n)
     
     for (int i : temp)
     {
+        cout << i << "의 배수를 제거하기 시작" << endl;
+
         if (i > sqrt(n))
         {
+            cout << i << "가 " << sqrt(n) << "보다 커졌으므로 for문 탈출" << endl;
             break;
         }
 
-        for (int j = i; j <= n;)
+        /*for (unsigned int j = 0; j < temp.size();)
         {
-            if (j == i)
+            if (temp[j] == i)
             {
                 j++;
             }
-            else if (j % i != 0)
+            else if (temp[j] % i != 0)
             {
                 j++;
             }
-            else if (j % i == 0)
+            else if (temp[j] % i == 0)
             {
-                temp.erase(temp.begin() + j - 2 );
+                temp.erase(temp.begin() + j);
+                for (unsigned int k = 0; k < temp.size(); k++)
+                {
+                    cout << temp[k] << " ";
+                }
+                cout << endl;
             }
-        }
+        }*/
+
+
     }
 
     answer = temp.size();
