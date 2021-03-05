@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay16_WeirdNumber
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay17_FindPrimeNumber", "CodingTestDay17_FindPrimeNumber\CodingTestDay17_FindPrimeNumber.vcxproj", "{6E78438C-9590-4C36-B62F-FF52072C4DE4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay18_SumBetweenTwoNum", "CodingTestDay18_SumBetweenTwoNum\CodingTestDay18_SumBetweenTwoNum.vcxproj", "{7EA190D9-253B-45E8-919E-6C75C1B976CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x64.Build.0 = Release|x64
 		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x86.ActiveCfg = Release|Win32
 		{6E78438C-9590-4C36-B62F-FF52072C4DE4}.Release|x86.Build.0 = Release|Win32
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Debug|x64.ActiveCfg = Debug|x64
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Debug|x64.Build.0 = Debug|x64
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Debug|x86.Build.0 = Debug|Win32
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x64.ActiveCfg = Release|x64
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x64.Build.0 = Release|x64
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x86.ActiveCfg = Release|Win32
+		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
