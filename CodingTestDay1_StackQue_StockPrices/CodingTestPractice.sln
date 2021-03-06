@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay17_FindPrimeNu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay18_SumBetweenTwoNum", "CodingTestDay18_SumBetweenTwoNum\CodingTestDay18_SumBetweenTwoNum.vcxproj", "{7EA190D9-253B-45E8-919E-6C75C1B976CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay19_GetMiddleLetter", "CodingTestDay19_GetMiddleLetter\CodingTestDay19_GetMiddleLetter.vcxproj", "{5EEE42CC-D685-4D17-A951-A420DE551D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x64.Build.0 = Release|x64
 		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x86.ActiveCfg = Release|Win32
 		{7EA190D9-253B-45E8-919E-6C75C1B976CD}.Release|x86.Build.0 = Release|Win32
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Debug|x64.ActiveCfg = Debug|x64
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Debug|x64.Build.0 = Debug|x64
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Debug|x86.Build.0 = Debug|Win32
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Release|x64.ActiveCfg = Release|x64
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Release|x64.Build.0 = Release|x64
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Release|x86.ActiveCfg = Release|Win32
+		{5EEE42CC-D685-4D17-A951-A420DE551D0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
