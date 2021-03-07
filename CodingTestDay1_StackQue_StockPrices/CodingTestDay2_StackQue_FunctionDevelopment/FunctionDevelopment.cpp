@@ -1,5 +1,3 @@
-// 못 푼 문제 - 보류
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -12,62 +10,72 @@ vector<int> solution(vector<int> progresses, vector<int> speeds);
 
 int main()
 {
-    vector<int> TestProgresses = {93, 30, 55};
-    vector<int> TestSpeeds = { 1, 30, 5 };
-    vector<int> TestReturn;
+    vector<int> TestProgresses1 = {93, 30, 55};
+    vector<int> TestProgresses2 = { 95, 90, 99, 99, 80, 99 };
+    vector<int> TestSpeeds1 = { 1, 30, 5 };
+    vector<int> TestSpeeds2 = { 1, 1, 1, 1, 1, 1 };
+    vector<int> TestReturn1, TestReturn2;
 
-    TestReturn = solution(TestProgresses, TestSpeeds);
+    TestReturn1 = solution(TestProgresses1, TestSpeeds1);
+    TestReturn2 = solution(TestProgresses2, TestSpeeds2);
 
-    cout << "for문 시작" << endl;
-    for (int i = 0; i < TestReturn.size(); i++)
+    for (int m = 0; m < TestReturn1.size(); m++)
     {
-        cout << TestReturn[i] << i <<" ";
-        cout << "ㅇㅇㅇ" << endl;
+        cout << TestReturn1[m] << " ";
     }
-    cout << "for문 끝" << endl;
+
+    cout << endl;
+
+    for (int l = 0; l < TestReturn2.size(); l++)
+    {
+        cout << TestReturn2[l] << " ";
+    }
+
+    cout << endl;
 
     return 0;
 }
 
 vector<int> solution(vector<int> progresses, vector<int> speeds)
 {
-    /*progresses = {0, 0 ,0};
-    speeds = {0, 0, 0};*/
-
     vector<int> answer;
-    int count = 0;
-
-    for (unsigned int i=0; i<9; i++)
+    vector<int> progresses_count(progresses.size());
+    int temp = 0;
+    int answer_count;
+    
+    // To calculate how many times it spend per progresses
+    for (unsigned int i = 0; i < progresses.size(); i++)
     {
-        for (unsigned int j = 0; j < progresses.size(); j++)
+        temp = progresses[i];
+        while (temp < 100)                              // Escape when progress is over 100%
         {
-            progresses[j] += speeds[j];
-            cout << progresses[j] << endl;
+            temp += speeds[i];
+            progresses_count[i]++;                      // Count how many times to achieve over 100%
         }
 
-        cout << "다 더함" << endl;
+        cout << progresses_count[i] << " ";
+    }
 
-        if (progresses[i] >= 100)
+    cout << endl;
+
+    // Calculate how many functions are distributed.
+    for (unsigned int j = 0; j < progresses_count.size(); j+=answer_count)
+    {
+        answer_count = 1;
+        for (unsigned int k = j + 1; k < progresses_count.size(); k++)
         {
-            count++;
-
-            for (unsigned int k=i+1; k < progresses.size(); k++)
+            if (progresses_count[j] >= progresses_count[k])
             {
-                if (progresses[k] >= 100)
-                {
-                    cout << "100이상 " << k << endl;
-                    count++;
-                }
-                else
-                {
-                    cout << "for문 탈출 " << k << endl;
-                    answer.push_back(count);
-                    break;
-                }
+                answer_count++;
+            }
+            else
+            {
+                break;
             }
         }
-        count = 0;
+        answer.push_back(answer_count);
+
     }
-    
+
     return answer;
 }
