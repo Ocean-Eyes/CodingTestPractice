@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDat21_OddEven", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay22_StringControlBasic", "CodingTestDay22_StringControlBasic\CodingTestDay22_StringControlBasic.vcxproj", "{9E1C16AD-51C2-40F6-B404-37B5C1B7B131}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay23_KeypadTouch", "CodingTestDay23_KeypadTouch\CodingTestDay23_KeypadTouch.vcxproj", "{1C1DCCD3-152E-4422-B144-754ED88D3CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{9E1C16AD-51C2-40F6-B404-37B5C1B7B131}.Release|x64.Build.0 = Release|x64
 		{9E1C16AD-51C2-40F6-B404-37B5C1B7B131}.Release|x86.ActiveCfg = Release|Win32
 		{9E1C16AD-51C2-40F6-B404-37B5C1B7B131}.Release|x86.Build.0 = Release|Win32
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Debug|x64.ActiveCfg = Debug|x64
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Debug|x64.Build.0 = Debug|x64
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Debug|x86.Build.0 = Debug|Win32
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Release|x64.ActiveCfg = Release|x64
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Release|x64.Build.0 = Release|x64
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Release|x86.ActiveCfg = Release|Win32
+		{1C1DCCD3-152E-4422-B144-754ED88D3CEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
