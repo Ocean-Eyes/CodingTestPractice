@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay24_SortDescend
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay24_FindHusbandKim", "CodingTestDay24_FindHusbandKim\CodingTestDay24_FindHusbandKim.vcxproj", "{14FC6A7F-91F1-41D5-9849-7AAE768507A1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay24_StringToInteger", "CodingTestDay24_StringToInteger\CodingTestDay24_StringToInteger.vcxproj", "{58678884-7929-4423-9AFB-D3FF6B55DA5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{14FC6A7F-91F1-41D5-9849-7AAE768507A1}.Release|x64.Build.0 = Release|x64
 		{14FC6A7F-91F1-41D5-9849-7AAE768507A1}.Release|x86.ActiveCfg = Release|Win32
 		{14FC6A7F-91F1-41D5-9849-7AAE768507A1}.Release|x86.Build.0 = Release|Win32
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Debug|x64.ActiveCfg = Debug|x64
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Debug|x64.Build.0 = Debug|x64
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Debug|x86.ActiveCfg = Debug|Win32
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Debug|x86.Build.0 = Debug|Win32
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Release|x64.ActiveCfg = Release|x64
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Release|x64.Build.0 = Release|x64
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Release|x86.ActiveCfg = Release|Win32
+		{58678884-7929-4423-9AFB-D3FF6B55DA5B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
