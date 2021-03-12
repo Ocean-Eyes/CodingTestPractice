@@ -28,11 +28,13 @@ double solution(vector<int> arr) {
     double sum = 0;
     double avg;
 
+    // Sum all of the elements in vector, arr
     for (int i = 0; i < arr.size(); i++)
     {
         sum += arr[i];
     }
 
+    // Get an average of arr from sum which is divided by size of arr.
     avg = sum / arr.size();
     answer = avg;
     return answer;

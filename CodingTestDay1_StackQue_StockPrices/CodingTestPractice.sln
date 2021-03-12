@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay25_InvertedNat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay25_GetAverage", "CodingTestDay25_GetAverage\CodingTestDay25_GetAverage.vcxproj", "{5F067EBB-D96A-43A0-9915-374A6ED4A175}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay25_RemoveSmallestNum", "CodingTestDay25_RemoveSmallestNum\CodingTestDay25_RemoveSmallestNum.vcxproj", "{48F0F713-E98A-4480-8B88-F462C471CAC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{5F067EBB-D96A-43A0-9915-374A6ED4A175}.Release|x64.Build.0 = Release|x64
 		{5F067EBB-D96A-43A0-9915-374A6ED4A175}.Release|x86.ActiveCfg = Release|Win32
 		{5F067EBB-D96A-43A0-9915-374A6ED4A175}.Release|x86.Build.0 = Release|Win32
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Debug|x64.ActiveCfg = Debug|x64
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Debug|x64.Build.0 = Debug|x64
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Debug|x86.Build.0 = Debug|Win32
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Release|x64.ActiveCfg = Release|x64
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Release|x64.Build.0 = Release|x64
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Release|x86.ActiveCfg = Release|Win32
+		{48F0F713-E98A-4480-8B88-F462C471CAC0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

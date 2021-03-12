@@ -41,13 +41,14 @@ int main()
 vector<int> solution(long long n) {
     vector<int> answer;
     string temp;
-    temp = to_string(n);
+    temp = to_string(n);                                // Convert 'n' from Long long to String and input into temp.
 
     cout << "변환한 값은 " << temp << endl;
 
+
     for (int k = temp.size() - 1 ; k >= 0; k--)
-    { 
-       answer.push_back((temp[k]-'0'));
+    {
+       answer.push_back((temp[k]-'0'));                 // Subtract '0' that first digit in ASCII CODE to convert Char to Integer.
     }
 
     return answer;
