@@ -14,6 +14,7 @@ int main(void) {
 
 void printStar(int n, int m)
 {
+    // Print the star that have a size of i * j.
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
