@@ -1,2 +1,2 @@
 # CodingTestPractice
-For Practicing Coding Test
+For Practice Coding Test
