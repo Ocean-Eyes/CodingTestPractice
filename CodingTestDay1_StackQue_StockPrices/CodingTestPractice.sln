@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay26_SumArray", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay26_SortSqrt", "CodingTestDay26_SortSqrt\CodingTestDay26_SortSqrt.vcxproj", "{473CD43F-C368-49B5-8DA8-0EA7D90B34F0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay27_HidePhoneNumber", "CodingTestDay27_HidePhoneNumber\CodingTestDay27_HidePhoneNumber.vcxproj", "{02F670C8-5C00-4170-B9A2-C6B6B5F76296}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{473CD43F-C368-49B5-8DA8-0EA7D90B34F0}.Release|x64.Build.0 = Release|x64
 		{473CD43F-C368-49B5-8DA8-0EA7D90B34F0}.Release|x86.ActiveCfg = Release|Win32
 		{473CD43F-C368-49B5-8DA8-0EA7D90B34F0}.Release|x86.Build.0 = Release|Win32
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Debug|x64.ActiveCfg = Debug|x64
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Debug|x64.Build.0 = Debug|x64
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Debug|x86.ActiveCfg = Debug|Win32
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Debug|x86.Build.0 = Debug|Win32
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Release|x64.ActiveCfg = Release|x64
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Release|x64.Build.0 = Release|x64
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Release|x86.ActiveCfg = Release|Win32
+		{02F670C8-5C00-4170-B9A2-C6B6B5F76296}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
