@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodingTestDay27_DescedingIn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N_Number_Spaced_By_X", "N_Number_Spaced_By_X\N_Number_Spaced_By_X.vcxproj", "{84700FA9-9785-43F0-829F-A8588F41AB54}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DivisibleNumber", "DivisibleNumber\DivisibleNumber.vcxproj", "{699B5060-576D-4156-ACC1-8EAF48BAE93B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{84700FA9-9785-43F0-829F-A8588F41AB54}.Release|x64.Build.0 = Release|x64
 		{84700FA9-9785-43F0-829F-A8588F41AB54}.Release|x86.ActiveCfg = Release|Win32
 		{84700FA9-9785-43F0-829F-A8588F41AB54}.Release|x86.Build.0 = Release|Win32
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Debug|x64.ActiveCfg = Debug|x64
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Debug|x64.Build.0 = Debug|x64
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Debug|x86.ActiveCfg = Debug|Win32
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Debug|x86.Build.0 = Debug|Win32
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Release|x64.ActiveCfg = Release|x64
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Release|x64.Build.0 = Release|x64
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Release|x86.ActiveCfg = Release|Win32
+		{699B5060-576D-4156-ACC1-8EAF48BAE93B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
