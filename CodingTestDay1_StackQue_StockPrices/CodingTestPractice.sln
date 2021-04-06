@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SumOfFactor", "SumOfFactor\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CollatzNumber", "CollatzNumber\CollatzNumber.vcxproj", "{97F678E1-3115-47DB-B585-46B61446DD96}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HarshadNumber", "HarshadNumber\HarshadNumber.vcxproj", "{E7A62EA4-39A0-4610-A66F-9469B3D674E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{97F678E1-3115-47DB-B585-46B61446DD96}.Release|x64.Build.0 = Release|x64
 		{97F678E1-3115-47DB-B585-46B61446DD96}.Release|x86.ActiveCfg = Release|Win32
 		{97F678E1-3115-47DB-B585-46B61446DD96}.Release|x86.Build.0 = Release|Win32
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Debug|x64.ActiveCfg = Debug|x64
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Debug|x64.Build.0 = Debug|x64
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Debug|x86.Build.0 = Debug|Win32
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Release|x64.ActiveCfg = Release|x64
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Release|x64.Build.0 = Release|x64
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Release|x86.ActiveCfg = Release|Win32
+		{E7A62EA4-39A0-4610-A66F-9469B3D674E4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
