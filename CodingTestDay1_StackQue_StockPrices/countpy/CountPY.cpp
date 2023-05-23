@@ -33,5 +33,5 @@ bool solution(string s)
         counter -= toupper(s[i]) == 'Y' ? 1 : 0;
     }
 
-    return !!counter;
+    return !counter;
 }
