@@ -17,38 +17,21 @@ int main()
     TestReturn1 = solution(Test_s1);
     TestReturn2 = solution(Test_s2);
 
-    cout << "s1ÀÇ °á°ú´Â " << boolalpha << TestReturn1 << endl;
-    cout << "s2ÀÇ °á°ú´Â " << boolalpha << TestReturn2 << endl;
+    cout << "s1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ " << boolalpha << TestReturn1 << endl;
+    cout << "s2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ " << boolalpha << TestReturn2 << endl;
 
     return 0;
 }
 
 bool solution(string s)
 {
-    bool answer = true;
-    int count_p = 0;
-    int count_y = 0;
+    int counter = 0;
 
     for (unsigned int i = 0; i < s.size(); i++)
     {
-        if ((s[i] == 'p') || (s[i] == 'P'))
-        {
-            count_p++;
-        }
-        else if ((s[i] == 'y') || (s[i] == 'Y'))
-        {
-            count_y++;
-        }
+        counter += toupper(s[i]) == 'P' ? 1 : 0;
+        counter -= toupper(s[i]) == 'Y' ? 1 : 0;
     }
 
-    if (count_p == count_y)
-    {
-        answer = true;
-    }
-    else
-    {
-        answer = false;
-    }
-
-    return answer;
+    return !counter;
 }
